@@ -19,6 +19,12 @@ for (let i = 4; i <= 10; i += 2) {
     select.appendChild(op);
 }
 
+start.addEventListener("click",()=> {
+    alert("oi")
+})
+
+
+
 
 
 
