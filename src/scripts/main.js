@@ -1,0 +1,29 @@
+//variaveis
+let menu = document.getElementById("menu");
+let select = document.getElementById("numCards");
+let start = document.getElementById("start");
+
+
+//repetiçao
+//  variavel - condiçao - açao
+for (let i = 4; i <= 10; i += 2) {
+    let n = i * i
+    // criar a nova opçao dentro do select 
+    let op = document.createElement('option');
+
+    //setar aquele n no valor e no visor
+    op.value = n;
+    op.innerHTML = n;
+
+    //colocar a nova opçao sendo filha do select
+    select.appendChild(op);
+}
+
+
+
+
+
+
+
+
+

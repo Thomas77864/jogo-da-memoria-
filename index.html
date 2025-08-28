@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+
+    <link rel="stylesheet" href="./src/css/game.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+
+    <script src="./src/scripts/cards.js" defer></script>
+    <script src="./src/scripts/board.js" defer></script>
+    <script src="./src/scripts/main.js" defer></script>
+  </head>
+<body>
+          <!-- Templates ( Modelos ) -->
+           <template id="cardTemplate">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front"></div>
+                <div class="flip-card-back"><img src="" alt=""></div>
+              </div>
+            </div>
+           </template>
+
+          <!-- Board Escondido -->           
+           <div id="board" class="hidden"></div>
+
+          <!-- Menu -->
+          <div id="menu">
+            <h1>A Memória do Herói</h1>
+            <div class="container">
+                <select name="numCards" id="numCards">
+                    
+                </select>
+                <button id="start">Iniciar</button>
+            </div>
+          </div>
+</body>
+</html>
